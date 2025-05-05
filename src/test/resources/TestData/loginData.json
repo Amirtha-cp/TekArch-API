@@ -1,0 +1,20 @@
+{
+	"payload": {
+		"login": {
+			"username": "feb2025.amritha@tekarch.com",
+			"password": "Admin123"
+		},
+		"addData": {
+			"accountno": "TA-3456782",
+			"departmentno": "7",
+			"salary": "68799",
+			"pincode": "689843"
+		}
+	},
+	"statusCode": {
+		"loginRes": 201,
+		"getUsersRes": 200,
+		"addDataRes": 201,
+		"deleteDataRes": 204
+	}
+}

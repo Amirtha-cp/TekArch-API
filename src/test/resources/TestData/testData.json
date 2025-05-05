@@ -1,0 +1,20 @@
+{
+	"payload": {
+		"login": {
+			"username": "mithun@ta.com",
+			"password": "mithun"
+		},
+		"addData": {
+			"accountno": "TA-3456782",
+			"departmentno": "7",
+			"salary": "68799",
+			"pincode": "689843"
+		}
+	},
+	"statusCode": {
+		"loginRes": 201,
+		"getUsersRes": 200,
+		"addDataRes": 201,
+		"deleteDataRes": 204
+	}
+}

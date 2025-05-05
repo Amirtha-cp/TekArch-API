@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-27T22:39:36 PDT" name="Suite" finished-at="2025-04-27T22:39:49 PDT" duration-ms="12886">
+    <groups>
+    </groups>
+    <test started-at="2025-04-27T22:39:36 PDT" name="Test" finished-at="2025-04-27T22:39:49 PDT" duration-ms="12886">
+      <class name="com.Automation.APITest.LoginTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.Automation.APITest.LoginTest@119cbf96]" started-at="2025-04-27T22:39:48 PDT" name="beforeClass" finished-at="2025-04-27T22:39:48 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="loginTest()[pri:0, instance:com.Automation.APITest.LoginTest@119cbf96]" started-at="2025-04-27T22:39:48 PDT" name="loginTest" finished-at="2025-04-27T22:39:49 PDT" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.Automation.APITest.LoginTest -->
+      <class name="com.Automation.APITest.AddUserTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Automation.APITest.AddUserTest@63eef88a]" started-at="2025-04-27T22:39:36 PDT" name="beforeMethod" finished-at="2025-04-27T22:39:39 PDT" duration-ms="2752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="GetUserDataTest()[pri:0, instance:com.Automation.APITest.AddUserTest@63eef88a]" started-at="2025-04-27T22:39:39 PDT" name="GetUserDataTest" finished-at="2025-04-27T22:39:41 PDT" duration-ms="2598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUserDataTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Automation.APITest.AddUserTest@63eef88a]" started-at="2025-04-27T22:39:41 PDT" name="beforeMethod" finished-at="2025-04-27T22:39:41 PDT" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addUserWithFakerDataTest()[pri:0, instance:com.Automation.APITest.AddUserTest@63eef88a]" started-at="2025-04-27T22:39:41 PDT" name="addUserWithFakerDataTest" finished-at="2025-04-27T22:39:43 PDT" duration-ms="1845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserWithFakerDataTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Automation.APITest.AddUserTest@63eef88a]" started-at="2025-04-27T22:39:43 PDT" name="beforeMethod" finished-at="2025-04-27T22:39:43 PDT" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testaddUserusingJsonFile()[pri:0, instance:com.Automation.APITest.AddUserTest@63eef88a]" started-at="2025-04-27T22:39:43 PDT" name="testaddUserusingJsonFile" finished-at="2025-04-27T22:39:43 PDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testaddUserusingJsonFile -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Automation.APITest.AddUserTest@63eef88a]" started-at="2025-04-27T22:39:43 PDT" name="beforeMethod" finished-at="2025-04-27T22:39:44 PDT" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAddUserdataTest()[pri:0, instance:com.Automation.APITest.AddUserTest@63eef88a]" started-at="2025-04-27T22:39:44 PDT" name="verifyAddUserdataTest" finished-at="2025-04-27T22:39:47 PDT" duration-ms="3254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddUserdataTest -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.Automation.APITest.AddUserTest@63eef88a]" started-at="2025-04-27T22:39:47 PDT" name="beforeMethod" finished-at="2025-04-27T22:39:47 PDT" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="deleteUserdataTest()[pri:0, instance:com.Automation.APITest.AddUserTest@63eef88a]" started-at="2025-04-27T22:39:47 PDT" name="deleteUserdataTest" finished-at="2025-04-27T22:39:48 PDT" depends-on-methods="com.Automation.APITest.AddUserTest.addUserWithFakerDataTest" duration-ms="1425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserdataTest -->
+      </class> <!-- com.Automation.APITest.AddUserTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
